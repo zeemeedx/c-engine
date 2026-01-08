@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/kaua1/github/c-engine/build/cmake_install.cmake",
+		"C:/Users/kaua1/github/c-engine/build/external/raylib/cmake_install.cmake",
+		"C:/Users/kaua1/github/c-engine/build/external/raylib/raylib/cmake_install.cmake",
+		"C:/Users/kaua1/github/c-engine/build/external/raylib/raylib/external/glfw/cmake_install.cmake",
+		"C:/Users/kaua1/github/c-engine/build/external/raylib/raylib/external/glfw/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
