@@ -10,6 +10,7 @@ Animator player_anim;
 void player_create(GameObject* self) {
     self->position = (Vector2){400, 225};
     self->velocity = (Vector2){0, 0};
+    self->rotation = 30.0f;
     self->active = 1;
 
     player_sprite = Sprite_Load(ASSET_PATH "player.png", 32, 32);
