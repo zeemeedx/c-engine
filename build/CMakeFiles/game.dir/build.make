@@ -101,11 +101,41 @@ CMakeFiles/game.dir/src/engine/engine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/game.dir/src/engine/engine.c.s"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kaua1\github\c-engine\src\engine\engine.c -o CMakeFiles\game.dir\src\engine\engine.c.s
 
+CMakeFiles/game.dir/src/graphics/animator.c.obj: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/graphics/animator.c.obj: CMakeFiles/game.dir/includes_C.rsp
+CMakeFiles/game.dir/src/graphics/animator.c.obj: C:/Users/kaua1/github/c-engine/src/graphics/animator.c
+CMakeFiles/game.dir/src/graphics/animator.c.obj: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kaua1\github\c-engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/game.dir/src/graphics/animator.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/graphics/animator.c.obj -MF CMakeFiles\game.dir\src\graphics\animator.c.obj.d -o CMakeFiles\game.dir\src\graphics\animator.c.obj -c C:\Users\kaua1\github\c-engine\src\graphics\animator.c
+
+CMakeFiles/game.dir/src/graphics/animator.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/game.dir/src/graphics/animator.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kaua1\github\c-engine\src\graphics\animator.c > CMakeFiles\game.dir\src\graphics\animator.c.i
+
+CMakeFiles/game.dir/src/graphics/animator.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/game.dir/src/graphics/animator.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kaua1\github\c-engine\src\graphics\animator.c -o CMakeFiles\game.dir\src\graphics\animator.c.s
+
+CMakeFiles/game.dir/src/graphics/sprite.c.obj: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/graphics/sprite.c.obj: CMakeFiles/game.dir/includes_C.rsp
+CMakeFiles/game.dir/src/graphics/sprite.c.obj: C:/Users/kaua1/github/c-engine/src/graphics/sprite.c
+CMakeFiles/game.dir/src/graphics/sprite.c.obj: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kaua1\github\c-engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/game.dir/src/graphics/sprite.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/graphics/sprite.c.obj -MF CMakeFiles\game.dir\src\graphics\sprite.c.obj.d -o CMakeFiles\game.dir\src\graphics\sprite.c.obj -c C:\Users\kaua1\github\c-engine\src\graphics\sprite.c
+
+CMakeFiles/game.dir/src/graphics/sprite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/game.dir/src/graphics/sprite.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kaua1\github\c-engine\src\graphics\sprite.c > CMakeFiles\game.dir\src\graphics\sprite.c.i
+
+CMakeFiles/game.dir/src/graphics/sprite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/game.dir/src/graphics/sprite.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kaua1\github\c-engine\src\graphics\sprite.c -o CMakeFiles\game.dir\src\graphics\sprite.c.s
+
 CMakeFiles/game.dir/src/object/object.c.obj: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/object/object.c.obj: CMakeFiles/game.dir/includes_C.rsp
 CMakeFiles/game.dir/src/object/object.c.obj: C:/Users/kaua1/github/c-engine/src/object/object.c
 CMakeFiles/game.dir/src/object/object.c.obj: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kaua1\github\c-engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/game.dir/src/object/object.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kaua1\github\c-engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/game.dir/src/object/object.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/object/object.c.obj -MF CMakeFiles\game.dir\src\object\object.c.obj.d -o CMakeFiles\game.dir\src\object\object.c.obj -c C:\Users\kaua1\github\c-engine\src\object\object.c
 
 CMakeFiles/game.dir/src/object/object.c.i: cmake_force
@@ -120,6 +150,8 @@ CMakeFiles/game.dir/src/object/object.c.s: cmake_force
 game_OBJECTS = \
 "CMakeFiles/game.dir/game/main.c.obj" \
 "CMakeFiles/game.dir/src/engine/engine.c.obj" \
+"CMakeFiles/game.dir/src/graphics/animator.c.obj" \
+"CMakeFiles/game.dir/src/graphics/sprite.c.obj" \
 "CMakeFiles/game.dir/src/object/object.c.obj"
 
 # External object files for target game
@@ -127,13 +159,15 @@ game_EXTERNAL_OBJECTS =
 
 game.exe: CMakeFiles/game.dir/game/main.c.obj
 game.exe: CMakeFiles/game.dir/src/engine/engine.c.obj
+game.exe: CMakeFiles/game.dir/src/graphics/animator.c.obj
+game.exe: CMakeFiles/game.dir/src/graphics/sprite.c.obj
 game.exe: CMakeFiles/game.dir/src/object/object.c.obj
 game.exe: CMakeFiles/game.dir/build.make
 game.exe: external/raylib/raylib/libraylib.a
 game.exe: CMakeFiles/game.dir/linkLibs.rsp
 game.exe: CMakeFiles/game.dir/objects1.rsp
 game.exe: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\kaua1\github\c-engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable game.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\kaua1\github\c-engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable game.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\game.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

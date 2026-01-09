@@ -1,0 +1,1 @@
+#define ASSET_PATH "C:/Users/kaua1/github/c-engine/assets/"

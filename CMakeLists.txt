@@ -9,6 +9,7 @@ file(GLOB_RECURSE ENGINE_SRC
     src/engine/*.c
     src/object/*.c
     src/scene/*.c
+    src/graphics/*c
 )
 
 add_executable(game

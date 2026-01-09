@@ -13,6 +13,18 @@
 },
 {
   "directory": "C:/Users/kaua1/github/c-engine/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/game.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\game.dir\\src\\graphics\\animator.c.obj -c C:\\Users\\kaua1\\github\\c-engine\\src\\graphics\\animator.c",
+  "file": "C:/Users/kaua1/github/c-engine/src/graphics/animator.c",
+  "output": "CMakeFiles/game.dir/src/graphics/animator.c.obj"
+},
+{
+  "directory": "C:/Users/kaua1/github/c-engine/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/game.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\game.dir\\src\\graphics\\sprite.c.obj -c C:\\Users\\kaua1\\github\\c-engine\\src\\graphics\\sprite.c",
+  "file": "C:/Users/kaua1/github/c-engine/src/graphics/sprite.c",
+  "output": "CMakeFiles/game.dir/src/graphics/sprite.c.obj"
+},
+{
+  "directory": "C:/Users/kaua1/github/c-engine/build",
   "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/game.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\game.dir\\src\\object\\object.c.obj -c C:\\Users\\kaua1\\github\\c-engine\\src\\object\\object.c",
   "file": "C:/Users/kaua1/github/c-engine/src/object/object.c",
   "output": "CMakeFiles/game.dir/src/object/object.c.obj"

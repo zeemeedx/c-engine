@@ -280,6 +280,54 @@ src/engine/engine.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/engine/engine.c.s
 .PHONY : src/engine/engine.c.s
 
+src/graphics/animator.obj: src/graphics/animator.c.obj
+.PHONY : src/graphics/animator.obj
+
+# target to build an object file
+src/graphics/animator.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/graphics/animator.c.obj
+.PHONY : src/graphics/animator.c.obj
+
+src/graphics/animator.i: src/graphics/animator.c.i
+.PHONY : src/graphics/animator.i
+
+# target to preprocess a source file
+src/graphics/animator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/graphics/animator.c.i
+.PHONY : src/graphics/animator.c.i
+
+src/graphics/animator.s: src/graphics/animator.c.s
+.PHONY : src/graphics/animator.s
+
+# target to generate assembly for a file
+src/graphics/animator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/graphics/animator.c.s
+.PHONY : src/graphics/animator.c.s
+
+src/graphics/sprite.obj: src/graphics/sprite.c.obj
+.PHONY : src/graphics/sprite.obj
+
+# target to build an object file
+src/graphics/sprite.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/graphics/sprite.c.obj
+.PHONY : src/graphics/sprite.c.obj
+
+src/graphics/sprite.i: src/graphics/sprite.c.i
+.PHONY : src/graphics/sprite.i
+
+# target to preprocess a source file
+src/graphics/sprite.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/graphics/sprite.c.i
+.PHONY : src/graphics/sprite.c.i
+
+src/graphics/sprite.s: src/graphics/sprite.c.s
+.PHONY : src/graphics/sprite.s
+
+# target to generate assembly for a file
+src/graphics/sprite.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/src/graphics/sprite.c.s
+.PHONY : src/graphics/sprite.c.s
+
 src/object/object.obj: src/object/object.c.obj
 .PHONY : src/object/object.obj
 
@@ -328,6 +376,12 @@ help:
 	@echo ... src/engine/engine.obj
 	@echo ... src/engine/engine.i
 	@echo ... src/engine/engine.s
+	@echo ... src/graphics/animator.obj
+	@echo ... src/graphics/animator.i
+	@echo ... src/graphics/animator.s
+	@echo ... src/graphics/sprite.obj
+	@echo ... src/graphics/sprite.i
+	@echo ... src/graphics/sprite.s
 	@echo ... src/object/object.obj
 	@echo ... src/object/object.i
 	@echo ... src/object/object.s

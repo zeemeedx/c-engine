@@ -2,6 +2,7 @@
 #define OBJECT_H
 
 #include "raylib.h"
+#include "../graphics/animator.h"
 
 typedef struct GameObject GameObject;
 
@@ -13,7 +14,10 @@ typedef void (*EventDestroy)(GameObject*);
 struct GameObject {
     Vector2 position;
     Vector2 velocity;
+    float rotation;
     int active;
+
+    Animator* animator;
 
     EventCreate on_create;
     EventStep on_step;

@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/kaua1/github/c-engine/game/main.c" "CMakeFiles/game.dir/game/main.c.obj" "gcc" "CMakeFiles/game.dir/game/main.c.obj.d"
   "C:/Users/kaua1/github/c-engine/src/engine/engine.c" "CMakeFiles/game.dir/src/engine/engine.c.obj" "gcc" "CMakeFiles/game.dir/src/engine/engine.c.obj.d"
+  "C:/Users/kaua1/github/c-engine/src/graphics/animator.c" "CMakeFiles/game.dir/src/graphics/animator.c.obj" "gcc" "CMakeFiles/game.dir/src/graphics/animator.c.obj.d"
+  "C:/Users/kaua1/github/c-engine/src/graphics/sprite.c" "CMakeFiles/game.dir/src/graphics/sprite.c.obj" "gcc" "CMakeFiles/game.dir/src/graphics/sprite.c.obj.d"
   "C:/Users/kaua1/github/c-engine/src/object/object.c" "CMakeFiles/game.dir/src/object/object.c.obj" "gcc" "CMakeFiles/game.dir/src/object/object.c.obj.d"
   )
 
