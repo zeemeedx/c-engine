@@ -10,6 +10,7 @@ file(GLOB_RECURSE ENGINE_SRC
     src/object/*.c
     src/scene/*.c
     src/graphics/*c
+    src/collison/*c
 )
 
 add_executable(game

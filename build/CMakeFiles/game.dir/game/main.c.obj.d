@@ -14,5 +14,6 @@ CMakeFiles/game.dir/game/main.c.obj: \
  C:/Users/kaua1/github/c-engine/src/object/object.h \
  C:/Users/kaua1/github/c-engine/src/graphics/animator.h \
  C:/Users/kaua1/github/c-engine/src/graphics/sprite.h \
+ C:/Users/kaua1/github/c-engine/src/collision/collision.h \
  C:/Users/kaua1/github/c-engine/src/graphics/sprite.h \
  C:/Users/kaua1/github/c-engine/src/graphics/animator.h

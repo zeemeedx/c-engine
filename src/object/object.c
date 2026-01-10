@@ -6,6 +6,15 @@
 static GameObject* objects[MAX_OBJECTS];
 static int object_count = 0;
 
+static void update_collider(GameObject* obj) {
+    obj->collider.bounds = (Rectangle){
+        obj->position.x,
+        obj->position.y,
+        obj->width_bbox,
+        obj->height_bbox
+    };
+}
+
 void ObjectManager_Init(void) {
     object_count = 0;
 }
@@ -26,6 +35,22 @@ void ObjectManager_Update(float dt) {
 
         if (obj->on_step)
             obj->on_step(obj, dt);
+
+        update_collider(obj);
+    }
+
+    for (int i = 0; i < object_count; i++) {
+        for (int j = i + 1; j < object_count; j++) { // Consertar essa ineficiência no futuro
+            GameObject* a = objects[i];
+            GameObject* b = objects[j];
+
+            if (!a->active || !b->active) continue;
+
+            if (CheckCollisionRecs(a->collider.bounds, b->collider.bounds)) {
+                if (a->on_collision) a->on_collision(a, b);
+                if (b->on_collision) b->on_collision(b, a);
+            }
+        }
     }
 }
 

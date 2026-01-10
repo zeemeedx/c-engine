@@ -3,6 +3,7 @@
 
 CMakeFiles/game.dir/game/main.c.obj: C:/Users/kaua1/github/c-engine/game/main.c \
   C:/Users/kaua1/github/c-engine/external/raylib/src/raylib.h \
+  C:/Users/kaua1/github/c-engine/src/collision/collision.h \
   C:/Users/kaua1/github/c-engine/src/engine/config.h \
   C:/Users/kaua1/github/c-engine/src/engine/engine.h \
   C:/Users/kaua1/github/c-engine/src/graphics/animator.h \
@@ -20,6 +21,7 @@ CMakeFiles/game.dir/game/main.c.obj: C:/Users/kaua1/github/c-engine/game/main.c 
 
 CMakeFiles/game.dir/src/engine/engine.c.obj: C:/Users/kaua1/github/c-engine/src/engine/engine.c \
   C:/Users/kaua1/github/c-engine/external/raylib/src/raylib.h \
+  C:/Users/kaua1/github/c-engine/src/collision/collision.h \
   C:/Users/kaua1/github/c-engine/src/graphics/animator.h \
   C:/Users/kaua1/github/c-engine/src/graphics/sprite.h \
   C:/Users/kaua1/github/c-engine/src/object/object.h \
@@ -63,6 +65,7 @@ CMakeFiles/game.dir/src/graphics/sprite.c.obj: C:/Users/kaua1/github/c-engine/sr
 
 CMakeFiles/game.dir/src/object/object.c.obj: C:/Users/kaua1/github/c-engine/src/object/object.c \
   C:/Users/kaua1/github/c-engine/external/raylib/src/raylib.h \
+  C:/Users/kaua1/github/c-engine/src/collision/collision.h \
   C:/Users/kaua1/github/c-engine/src/graphics/animator.h \
   C:/Users/kaua1/github/c-engine/src/graphics/sprite.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -90,21 +93,23 @@ CMakeFiles/game.dir/src/object/object.c.obj: C:/Users/kaua1/github/c-engine/src/
 
 C:/Users/kaua1/github/c-engine/game/main.c:
 
+C:/msys64/mingw64/include/_mingw.h:
+
 C:/Users/kaua1/github/c-engine/external/raylib/src/raylib.h:
 
 C:/Users/kaua1/github/c-engine/src/graphics/animator.h:
-
-C:/msys64/mingw64/include/_mingw.h:
-
-C:/Users/kaua1/github/c-engine/src/engine/config.h:
-
-C:/Users/kaua1/github/c-engine/src/engine/engine.h:
 
 C:/Users/kaua1/github/c-engine/src/object/object.h:
 
 C:/msys64/mingw64/include/vadefs.h:
 
 C:/Users/kaua1/github/c-engine/src/graphics/sprite.h:
+
+C:/Users/kaua1/github/c-engine/src/collision/collision.h:
+
+C:/Users/kaua1/github/c-engine/src/engine/config.h:
+
+C:/Users/kaua1/github/c-engine/src/engine/engine.h:
 
 C:/msys64/mingw64/include/_mingw_mac.h:
 
